@@ -1,0 +1,9 @@
+{
+  "revision": 0,
+  "rules": [
+    {
+      "primary-output": "src\\engine\\CMakeFiles\\engine.dir\\engine\\utilities\\DebugRayActor.cc.obj"
+    }
+  ],
+  "version": 1
+}

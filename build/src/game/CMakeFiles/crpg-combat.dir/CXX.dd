@@ -1,0 +1,19 @@
+ninja_dyndep_version = 1.0
+build src/game/CMakeFiles/crpg-combat.dir/main/Game.cc.obj: dyndep
+
+build src/game/CMakeFiles/crpg-combat.dir/main/Main.cc.obj: dyndep
+
+build src/game/CMakeFiles/crpg-combat.dir/main/MoveWeightedTilemap.cc.obj: dyndep
+
+build src/game/CMakeFiles/crpg-combat.dir/gameplay/Action.cc.obj: dyndep
+
+build src/game/CMakeFiles/crpg-combat.dir/gameplay/CameraController.cc.obj: dyndep
+
+build src/game/CMakeFiles/crpg-combat.dir/gameplay/Character.cc.obj: dyndep
+
+build src/game/CMakeFiles/crpg-combat.dir/gameplay/Inventory.cc.obj: dyndep
+
+build src/game/CMakeFiles/crpg-combat.dir/gameplay/TurnManager.cc.obj: dyndep
+
+build src/game/CMakeFiles/crpg-combat.dir/environment/Barrel.cc.obj: dyndep
+

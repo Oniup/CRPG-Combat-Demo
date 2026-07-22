@@ -1,0 +1,13 @@
+[
+  {
+    "label": "C++: Debug CMake Target",
+    "adapter": "CodeLLDB",
+    "request": "launch",
+    "program": "$ZED_WORKTREE_ROOT/build/Debug/crpg-combat.exe",
+    "build": {
+      "command": "cmake",
+      "args": ["--build", "build"],
+      "cwd": "$ZED_WORKTREE_ROOT",
+    },
+  },
+]

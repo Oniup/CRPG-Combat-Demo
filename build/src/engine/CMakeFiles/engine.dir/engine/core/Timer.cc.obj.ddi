@@ -1,0 +1,9 @@
+{
+  "revision": 0,
+  "rules": [
+    {
+      "primary-output": "src\\engine\\CMakeFiles\\engine.dir\\engine\\core\\Timer.cc.obj"
+    }
+  ],
+  "version": 1
+}

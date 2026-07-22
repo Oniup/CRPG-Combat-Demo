@@ -1,0 +1,9 @@
+{
+  "revision": 0,
+  "rules": [
+    {
+      "primary-output": "src\\game\\CMakeFiles\\crpg-combat.dir\\gameplay\\TurnManager.cc.obj"
+    }
+  ],
+  "version": 1
+}

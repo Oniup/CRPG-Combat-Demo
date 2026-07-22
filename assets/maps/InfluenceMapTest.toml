@@ -1,0 +1,49 @@
+[Meta]
+name = "Influence Map Test"
+width = 10
+length = 10
+cellWidth = 1.0
+cellHeight = 1.0
+tilemapClass = "game::MoveWeightedTilemap"
+
+[Resources]
+
+[TerrainDefs]
++ = "Grass"        | tint = "4d7d27", walkable = true, height = 0.3
+* = "WoodPlatform" | tint = "a87e52", walkable = true, height = 0.2
+m = "Mud"          | tint = "5d3712", walkable = true, height = 0.3, cost = 2, mCost = 2
+W = "HighWall"     | tint = "515459", height = 2.0
+w = "ShortWall"    | tint = "515459", height = 1.0
+^ = "Stairs"       | tint = "ffffff", walkable = true, slope = 'n'
+v = "Stairs"       | tint = "ffffff", walkable = true, slope = 's'
+< = "Stairs"       | tint = "ffffff", walkable = true, slope = 'e'
+> = "Stairs"       | tint = "ffffff", walkable = true, slope = 'w'
+
+[ActorDefs]
+B = "game::Barrel" | height = 0.5, health = 50, damage = 25
+a = "game::Character"  | tint = "ff0000", height = 0.3, maxPts = 1000, dex = 6.0, type = "archer"
+w = "game::Character"  | tint = "00ff00", height = 0.3, maxPts = 13, type = "warrior"
+
+[Terrain:0]
++ + + + + + + + + +
++ + m m m m m m + +
++ + m m m m m m + +
++ + m m m m m m + +
++ + m m m m m m + +
++ + m m m m m m + +
++ + m m m m m m + +
++ + m m m m m m + +
++ + m m m m m m + +
++ + + + + + + + + +
+
+[Actors:0]
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . a . . . . .

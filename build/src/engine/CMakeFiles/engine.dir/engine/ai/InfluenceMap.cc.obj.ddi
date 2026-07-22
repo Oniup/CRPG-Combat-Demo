@@ -1,0 +1,9 @@
+{
+  "revision": 0,
+  "rules": [
+    {
+      "primary-output": "src\\engine\\CMakeFiles\\engine.dir\\engine\\ai\\InfluenceMap.cc.obj"
+    }
+  ],
+  "version": 1
+}

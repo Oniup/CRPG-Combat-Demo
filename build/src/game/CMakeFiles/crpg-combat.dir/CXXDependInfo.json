@@ -1,0 +1,26 @@
+{
+	"bmi-installation" : null,
+	"compiler-frontend-variant" : "GNU",
+	"compiler-id" : "Clang",
+	"compiler-simulate-id" : "MSVC",
+	"config" : "Debug",
+	"cxx-modules" : {},
+	"dir-cur-bld" : "C:/Dev/Custom Project/build/src/game",
+	"dir-cur-src" : "C:/Dev/Custom Project/src/game",
+	"dir-top-bld" : "C:/Dev/Custom Project/build",
+	"dir-top-src" : "C:/Dev/Custom Project",
+	"exports" : [],
+	"forward-modules-from-target-dirs" : [],
+	"include-dirs" : 
+	[
+		"C:\\Dev\\Custom Project\\src\\engine",
+		"C:\\Dev\\Custom Project\\src\\game",
+		"_deps\\libfmt-src\\include",
+		"_deps\\raylib-src\\src",
+		"_deps\\raylib-src\\src\\external\\glfw\\include",
+		"_deps\\raygui-src\\src"
+	],
+	"language" : "CXX",
+	"linked-target-dirs" : [],
+	"module-dir" : "C:/Dev/Custom Project/build/src/game/CMakeFiles/crpg-combat.dir"
+}

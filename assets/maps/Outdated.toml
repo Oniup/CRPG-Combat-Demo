@@ -1,0 +1,60 @@
+[Meta]
+name = "Test Level"
+width = 5
+length = 5
+cellWidth = 1.0
+cellHeight = 1.0
+
+# Name = "Path"
+[Resources]
+
+# ID = "TileName" | field=value, field=value, ...
+[TerrainDefs]
++ = "Grass"        | tint = "4d7d27", walkable = true, height = 0.3
+* = "WoodPlatform" | tint = "a87e52", walkable = true, height = 0.2
+m = "Mud"          | tint = "5d3712", walkable = true, height = 0.3, cost = 3
+W = "HighWall"     | tint = "515459", height = 2.0
+w = "ShortWall"    | tint = "515459", height = 1.0
+^ = "Stairs"       | tint = "645f5d", walkable = true, slope = 'n'
+v = "Stairs"       | tint = "645f5d", walkable = true, slope = 's'
+< = "Stairs"       | tint = "645f5d", walkable = true, slope = 'e'
+> = "Stairs"       | tint = "645f5d", walkable = true, slope = 'w'
+
+# ID = "ActorClass" | field=value, field=value, ...
+[ActorDefs]
+B = "game::Barrel" | height = 0.5, health = 50, element = "fire"
+# 0 = "game::Ladder" | toLayer = 0
+# 1 = "game::Ladder" | toLayer = 1
+
+# Lowest layer specified by the :0
+[Terrain:0]
+w m m m w
+w + m m .
+W w + + +
+. . ^ w +
++ + + + +
+[Actors:0]
+. B . . .
+. . . . .
+. . . . .
+. . . . .
+. . . . .
+
+# Layer above previous specified by the :1
+[Terrain:1]
+. . . . +
+W . . . .
+. + * * .
+. . . * .
+. . . * *
+[Actors:1]
+. . . . B
+B . . . .
+. . . . .
+. . . . .
+. . . . B
+# . . . . .
+# . . . . .
+# . . . . .
+# . . . . .
+# . . . . .

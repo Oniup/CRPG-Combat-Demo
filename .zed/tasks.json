@@ -1,0 +1,32 @@
+[
+  {
+    "label": "CMake Configure (Debug)",
+    "command": "cmake",
+    "args": [
+      "-B",
+      "build",
+      "-G",
+      "Ninja",
+      "-DCMAKE_C_COMPILER=clang",
+      "-DCMAKE_CXX_COMPILER=clang++",
+      "-DCMAKE_EXPORT_COMPILE_COMMANDS=ON",
+      "-DCMAKE_BUILD_TYPE=Debug",
+    ],
+    "use_new_terminal": false,
+    "allow_concurrent_runs": false,
+  },
+  {
+    "label": "CMake: Build",
+    "command": "cmake",
+    "args": ["--build", "build"],
+    "use_new_terminal": false,
+    "allow_concurrent_runs": false,
+  },
+  {
+    "label": "Cmake: Build and Run",
+    "command": "cmd",
+    "args": ["/c", "cmake --build build && ./build/Debug/crpg-combat.exe"],
+    "use_new_terminal": false,
+    "allow_concurrent_runs": false,
+  },
+]
