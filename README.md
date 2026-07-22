@@ -1,8 +1,5 @@
 # Custom Project - CRPG Combat Demo
 
-- Author: Ewan Robson
-- Student Id: 103992579
-
 ![World and character gameplay](./images/screenshot.png)
 ![Visual debugger showcase](./images/debug-screenshot.png)
 
