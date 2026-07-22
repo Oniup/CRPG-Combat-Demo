@@ -1,9 +1,0 @@
-{
-  "revision": 0,
-  "rules": [
-    {
-      "primary-output": "src\\engine\\CMakeFiles\\engine.dir\\engine\\ai\\AStarPath.cc.obj"
-    }
-  ],
-  "version": 1
-}

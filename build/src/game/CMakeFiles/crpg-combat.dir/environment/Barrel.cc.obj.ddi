@@ -1,9 +1,0 @@
-{
-  "revision": 0,
-  "rules": [
-    {
-      "primary-output": "src\\game\\CMakeFiles\\crpg-combat.dir\\environment\\Barrel.cc.obj"
-    }
-  ],
-  "version": 1
-}
